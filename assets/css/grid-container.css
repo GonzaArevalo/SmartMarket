@@ -1,7 +1,0 @@
-.grid-container {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr); /* 3 filas con la misma altura */
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas con el mismo ancho */
-    gap: 10px; /* espacio de 10px entre cada div */
-  }
-  
