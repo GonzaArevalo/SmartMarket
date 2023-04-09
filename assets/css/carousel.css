@@ -1,0 +1,36 @@
+.carousel-item{
+    height: 20rem;
+    /*background-color: #a8aff31a -- */
+}
+
+.carousel-item img {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+h4{
+
+    color:black;
+    font-weight: bold;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.815);
+}
+
+/*.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(168, 168, 168, 0.514);
+}
+
+.carousel-control-prev{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.carousel-control-next{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
