@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contacto SmartMarket</title>
+  <title>SmartMarket</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" rel="stylesheet">
@@ -78,73 +78,93 @@
     </p>
 
     <!--Aquí inicia todo lo que es el formulario-->
-    <div class="row g-3 needs-validation" novalidate class="container">
-      <div class="col-md-4">
-        <label for="validationServer01" class="color text-white" class="form-label"
-          style="margin-left: 1%;"><b>Nombres</b></label>
-        <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
-        <p style="color:rgb(175, 175, 175)">Ejemplo: Juan Antonio</p>
-      </div>
-      <div class="col-md-4">
-        <label for="validationServer01" class="color text-white" class="form-label"
-          style="margin-left: 1%;"><b>Apellidos</b></label>
-        <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
-        <p style="color:rgb(175, 175, 175)">Ejemplo: Perez Pereira</p>
-      </div>
-      <div class="col-md-4">
-        <label for="validationServer01" class="color text-white" class="form-label" style="margin-left: 1%;"><b>Telefono
-            de contacto</b></label>
-        <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
-        <p style="color:rgb(175, 175, 175)">Ejemplo: +56 9 9988 7766</p>
-      </div>
-      <div class="col-md-4">
-        <label for="validationServer01" class="color text-white" class="form-label"
-          style="margin-left: 1%;"><b>Correo</b></label>
-        <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
-        <p style="color:rgb(175, 175, 175)">Ejemplo: correo@correo.com</p>
-      </div>
-      <div class="col-md-4">
-        <label for="validationServer01" class="color text-white" class="form-label"
-          style="margin-left: 1%;"><b>Dirección</b></label>
-        <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
-        <p style="color:rgb(175, 175, 175)">Ejemplo: Pasaje las Atahualpas 666</p>
-      </div>
-      <div class="col-md-4">
-       <label for="validationServer01" class="color text-white" class="form-label"
-          style="margin-left: 1%;"><b>Ciudad/Sucursal de referencia</b></label>
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Seleccione una alternativa</option>
-            <option value="1">Santiago</option>
-            <option value="2">Viña del Mar</option>
-            <option value="3">Valparaiso</option>
-            <option value="4">Rancagua</option>
-            <option value="5">Temuco</option>
-            <option value="6">Puerto Montt</option>
-          </select>
+
+<form class="was-validated">
+  <div class="row g-3 needs-validation" novalidate class="container">
+
+  <div class="col-md-4">
+    <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Nombres</b></label>
+    <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+    <p style="color:rgb(175, 175, 175)">Ejemplo: Juan Antonio</p>
+    <div class="invalid-feedback">
+      Porfavor ingrese sus nombres.
+    </div>   
+  </div>
 
 
-        <!--input type="text" class="form-control is-valid" id="validationServer01" value="" required-->
+  <div class="col-md-4">
+    <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Apellidos</b></label>
+    <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+    <p style="color:rgb(175, 175, 175)">Ejemplo: Perez Pereira</p>
+    <div class="invalid-feedback">
+      Porfavor ingrese sus apellidos.
+    </div>   
+  </div>
 
-        <!--p style="color:rgb(175, 175, 175)">Ejemplo: Machalí</p-->
-      </div>
-      <textarea data-role="none" id="id_comentarios_contacto" name="id_comentarios_contacto" rows="5" cols="33"
-        maxlength="1000" value> </textarea>
-    </div>
 
-    <div>
-      <form>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">
-            <p class="color text-white">He leído la información y estoy de acuerdo con su envío</p>
-          </label>
-        </div>
-          <div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-          </div>
-      </form>
-    </div>
-</div>
+  <div class="col-md-4">
+    <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Teléfono</b></label>
+    <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+    <p style="color:rgb(175, 175, 175)">Ejemplo: +56 9 9999 9999</p>
+    <div class="invalid-feedback">
+      Porfavor ingrese algún teléfono de contacto.
+    </div>   
+  </div>
+
+  <div class="col-md-4">
+    <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Correo electronico</b></label>
+    <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+    <p style="color:rgb(175, 175, 175)">Ejemplo: correo@correo.com</p>
+    <div class="invalid-feedback">
+      Porfavor ingrese algún correo de contacto.
+    </div>   
+  </div>
+
+
+  <div class="col-md-4">
+    <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Dirección</b></label>
+    <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+    <p style="color:rgb(175, 175, 175)">Ejemplo: Pasaje las Atahualpas 666</p>
+    <div class="invalid-feedback">
+      Porfavor ingrese alguna dirección.
+    </div>   
+  </div>
+
+  <div class="col-md-4">
+    <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Sucursal de referencia</b></label>
+    <select class="form-select" required aria-label="select example">
+      <option value="">Seleccione una sucursal de referencia</option>
+      <option value="1">Santiago</option>
+      <option value="2">Viña del Mar</option>
+      <option value="3">Valparaiso</option>
+      <option value="4">Rancagua</option>
+      <option value="5">Temuco</option>
+      <option value="6">Puerto Montt</option>
+    </select>
+    <div class="invalid-feedback">No olvide seleccionar sucursal de referencia</div>
+  </div>
+
+  <div class="mb-3">
+    <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Detalles de consulta</b></label>
+    <textarea class="form-control" id="validationTextarea" placeholder="Ingrese aquí los detalles de su consulta" required></textarea>
+    <div class="invalid-feedback">
+      Porfavor ingrese algún detalle.
+    </div>    
+  </div>
+
+  <div class="form-check mb-3">
+    <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+    <label class="form-check-label" for="validationFormCheck1">He leído la información y estoy de acuerdo con su envío</label>
+    <div class="invalid-feedback">Favor marcar haber leído la información</div>
+  </div>
+
+  <div class="mb-3">
+    <button class="btn btn-primary" type="submit" enabled>Enviar información</button>
+  </div>
+
+</form>
+
+
 
 </div> <!--Fin del cuadro principal-->
   
