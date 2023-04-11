@@ -85,7 +85,7 @@
 
   <div class="col-md-4">
     <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Nombres</b></label>
-    <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+    <input type="text" class="form-control is-valid" id="name" minlength="6" required>
     <p style="color:rgb(175, 175, 175)">Ejemplo: Juan Antonio</p>
     <div class="invalid-feedback">
       Porfavor ingrese sus nombres.
@@ -95,7 +95,7 @@
 
   <div class="col-md-4">
     <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Apellidos</b></label>
-    <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+    <input type="text" class="form-control is-valid" id="validationServer01" minlength="6" required>
     <p style="color:rgb(175, 175, 175)">Ejemplo: Perez Pereira</p>
     <div class="invalid-feedback">
       Porfavor ingrese sus apellidos.
@@ -105,8 +105,8 @@
 
   <div class="col-md-4">
     <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Teléfono</b></label>
-    <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
-    <p style="color:rgb(175, 175, 175)">Ejemplo: +56 9 9999 9999</p>
+    <input type="text" class="form-control is-valid" id="validationServer01" minlength="12" required>
+    <p style="color:rgb(175, 175, 175)">Ejemplo: +56987654321</p>
     <div class="invalid-feedback">
       Porfavor ingrese algún teléfono de contacto.
     </div>   
@@ -114,7 +114,7 @@
 
   <div class="col-md-4">
     <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Correo electronico</b></label>
-    <input type="email" class="form-control is-valid" id="email" name="email" value="" required>
+    <input type="email" class="form-control is-valid" id="email" name="email" required>
     <p style="color:rgb(175, 175, 175)">Ejemplo: correo@correo.com</p>
     <div class="invalid-feedback">
       Porfavor ingrese algún correo de contacto.
@@ -124,7 +124,7 @@
 
   <div class="col-md-4">
     <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Dirección</b></label>
-    <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+    <input type="text" class="form-control is-valid" id="validationServer01" minlength="10" required>
     <p style="color:rgb(175, 175, 175)">Ejemplo: Pasaje las Atahualpas 666</p>
     <div class="invalid-feedback">
       Porfavor ingrese alguna dirección.
