@@ -83,7 +83,108 @@
 <form class="was-validated">
   <div class="row g-3 needs-validation" novalidate class="container">
 
-    
+  <div class="col-md-4">
+    <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Nombres</b></label>
+    <input type="text" class="form-control is-valid" id="name" minlength="6" required>
+    <p style="color:rgb(175, 175, 175)">Ejemplo: Juan Antonio</p>
+    <div class="invalid-feedback">
+  <!--    Porfavor ingrese sus nombres.-->
+    </div>   
+  </div>
+
+
+  <div class="col-md-4">
+    <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Apellidos</b></label>
+    <input type="text" class="form-control is-valid" id="validationServer01" minlength="6" required>
+    <p style="color:rgb(175, 175, 175)">Ejemplo: Perez Pereira</p>
+    <div class="invalid-feedback">
+  <!--    Porfavor ingrese sus apellidos. -->
+    </div>   
+  </div>
+
+
+  <div class="col-md-4">
+    <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Teléfono</b></label>
+    <input type="text" class="form-control is-valid" id="validationServer01" minlength="12" required>
+    <p style="color:rgb(175, 175, 175)">Ejemplo: +56987654321</p>
+    <div class="invalid-feedback">
+  <!--    Porfavor ingrese algún teléfono de contacto. -->
+    </div>   
+  </div>
+
+  <div class="col-md-4">
+    <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Correo electronico</b></label>
+    <input type="email" class="form-control is-valid" id="email" name="email" required>
+    <p style="color:rgb(175, 175, 175)">Ejemplo: correo@correo.com</p>
+    <div class="invalid-feedback">
+  <!--    Porfavor ingrese algún correo de contacto. -->
+    </div>   
+  </div>
+
+
+  <div class="col-md-4">
+    <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Dirección</b></label>
+    <input type="text" class="form-control is-valid" id="validationServer01" minlength="10" required>
+    <p style="color:rgb(175, 175, 175)">Ejemplo: Pasaje las Atahualpas 666</p>
+    <div class="invalid-feedback">
+  <!--    Porfavor ingrese alguna dirección.  -->
+    </div>   
+  </div>
+
+<!--test-->
+<!--test-->
+<!--test-->
+
+  <div class="col-md-4">
+    <label for="direccion" class="color text-white" class="form-label">Dirección</label>
+    <input type="text" class="form-control"  id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="color text-white" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+
+
+<div class="col-md-4">
+  
+  <label><b class="letras-blancas">TEST</b></label>
+    <textarea type="text"  class="form" required> </textarea>
+  <div></div>
+</div>
+
+
+<div class="form-group">
+  <label for="username">Nombre de usuario</label>
+  <input type="text" class="form-control" id="username" required>
+  <div class="valid-feedback">
+    ¡Correcto!
+  </div>
+</div>
+
+
+<!--test-->
+<!--test-->
+<!--test-->
+
+  <div class="col-md-4">
+    <label class="color text-white" class="form-label" style="margin-left: 1%;"><b>Sucursal de referencia</b></label>
+    <select class="form-select" required aria-label="select example">
+      <option value="">Seleccione una sucursal de referencia</option>
+      <option value="1">Santiago</option>
+      <option value="2">Viña del Mar</option>
+      <option value="3">Valparaiso</option>
+      <option value="4">Rancagua</option>
+      <option value="5">Temuco</option>
+      <option value="6">Puerto Montt</option>
+    </select>
+  <!--  <div class="invalid-feedback">No olvide seleccionar sucursal de referencia</div> -->
+  </div>
+
+  <div class="mb-3">
+    <label class="color text-white" class="form-label"><b>Detalles de consulta</b></label>
+    <textarea class="form-control" id="validationTextarea" placeholder="Ingrese aquí los detalles de su consulta" required></textarea>
+    <div class="invalid-feedback">
+  <!--    Porfavor ingrese algún detalle. -->
+    </div>    
+  </div>
+
   <div class="form-check mb-3">
     <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
     <label class="form-check-label" for="validationFormCheck1">He leído la información y estoy de acuerdo con su envío</label>
