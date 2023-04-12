@@ -88,13 +88,19 @@
 
 
 
-
+          
 
 
           <div class="col-md-4">
-            <label for="telefono" class="form-label"><b style="color: white;">Teléfono</b></label>
+            <label for="nombre" class="form-label"><b style="color: white;"></b></label>
+            <input type="text" id="nombre" aria-describedby="emailHelp" placeholder="Ejemplo: Juan Antonio" minlength="6" required>
+            <div id="emailHelp" class="form-text"><b style="color:rgb(175, 175, 175)">Nombres</b></div>
+          </div>
+
+          <div class="col-md-4">
+            <label for="telefono" class="form-label"><b style="color: white;">Apellidos</b></label>
             <input type="tel" class="#" id="telefono" aria-describedby="emailHelp" minlength="12" required>
-            <div id="emailHelp" class="form-text"><b style="color:rgb(175, 175, 175)">Ejemplo: +56987654321</b></div>
+            <div id="emailHelp" class="form-text"><b style="color:rgb(175, 175, 175)">Ejemplo: Perez Pereira</b></div>
           </div>
 
           <div class="col-md-4">
@@ -104,31 +110,36 @@
           </div>
 
           <div class="col-md-4">
-            <label for="telefono" class="form-label"><b style="color: white;">Teléfono</b></label>
+            <label for="telefono" class="form-label"><b style="color: white;">Correo Electronico</b></label>
             <input type="tel" class="#" id="telefono" aria-describedby="emailHelp" minlength="12" required>
             <div id="emailHelp" class="form-text"><b style="color:rgb(175, 175, 175)">Ejemplo: +56987654321</b></div>
           </div>
 
           <div class="col-md-4">
-            <label for="telefono" class="form-label"><b style="color: white;">Teléfono</b></label>
+            <label for="telefono" class="form-label"><b style="color: white;">Dirección</b></label>
             <input type="tel" class="#" id="telefono" aria-describedby="emailHelp" minlength="12" required>
             <div id="emailHelp" class="form-text"><b style="color:rgb(175, 175, 175)">Ejemplo: +56987654321</b></div>
           </div>
 
           <div class="col-md-4">
-            <label for="telefono" class="form-label"><b style="color: white;">Teléfono</b></label>
-            <input type="tel" class="#" id="telefono" aria-describedby="emailHelp" minlength="12" required>
-            <div id="emailHelp" class="form-text"><b style="color:rgb(175, 175, 175)">Ejemplo: +56987654321</b></div>
-          </div>
-
-          <div class="col-md-4">
-            <label for="telefono" class="form-label"><b style="color: white;">Teléfono</b></label>
+            <label for="telefono" class="form-label"><b style="color: white;">Sucursal de referencia</b></label>
             <input type="tel" class="#" id="telefono" aria-describedby="emailHelp" minlength="12" required>
             <div id="emailHelp" class="form-text"><b style="color:rgb(175, 175, 175)">Ejemplo: +56987654321</b></div>
           </div>
 
 
-
+          <div class="col-md-3">
+            <label class="color text-white"><b>Sucursal de referencia</b></label>
+            <select class="form-select" required aria-label="select example">
+              <option value="">Seleccione una sucursal</option>
+              <option value="1">Santiago</option>
+              <option value="2">Viña del Mar</option>
+              <option value="3">Valparaiso</option>
+              <option value="4">Rancagua</option>
+              <option value="5">Temuco</option>
+              <option value="6">Puerto Montt</option>
+            </select>
+          </div>
 
 
 
