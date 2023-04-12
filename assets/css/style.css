@@ -1,28 +1,3 @@
-  input:valid {
-    border: 2px solid green;
-  }
-  
-  /*input:invalid {
-    border: 2px solid red;
-  }
-
-  input:focus:invalid {
-    outline: 2px solid red;
-  }
-
-  .letras-blancas {
-    color: #FFFFFF;
-  }
-
-  .letras-verdes {
-    color: #2a9e00;
-  }*/
-
-  .comentarios {
-    border: 1px solid black; /* Establece un borde negro de 1 píxel */
-    padding: 10px; /* Establece un relleno de 10 píxeles alrededor del contenido */
-    width: 100%; /* Establece la anchura al 100% del ancho del contenedor */
-  }
 
   .tamañocomentarios {
     width: 100%;
@@ -38,4 +13,12 @@
 
   .centrado-especial {
     margin: 15%;
+  }
+
+  .col-md-4 {
+    color: #FFFFFF;
+  }
+
+  .was-validated {
+    margin-top: 11%;
   }
