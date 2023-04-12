@@ -9,3 +9,7 @@
   input:focus:invalid {
     outline: 2px solid red;
   }
+
+  .letras-blancas {
+    color: #FFFFFF;
+  }
