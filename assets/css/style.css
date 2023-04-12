@@ -15,10 +15,10 @@
     margin: 15%;
   }
 
-  .col-md-4 {
-    color: #FFFFFF;
+  label {
+    color: #ffffff;
   }
 
   .was-validated {
-    margin-top: 5%;
+    margin-top: 8%;
   }
