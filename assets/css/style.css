@@ -2,7 +2,7 @@
     border: 2px solid green;
   }
   
-  input:invalid {
+  /*input:invalid {
     border: 2px solid red;
   }
 
@@ -16,4 +16,26 @@
 
   .letras-verdes {
     color: #2a9e00;
+  }*/
+
+  .comentarios {
+    border: 1px solid black; /* Establece un borde negro de 1 píxel */
+    padding: 10px; /* Establece un relleno de 10 píxeles alrededor del contenido */
+    width: 100%; /* Establece la anchura al 100% del ancho del contenedor */
+  }
+
+  .tamañocomentarios {
+    width: 100%;
+  }
+
+
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("/assets/img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .centrado-especial {
+    margin: 15%;
   }
